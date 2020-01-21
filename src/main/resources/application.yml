@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    driver-class-name:
+    username:
+    password:
+    url:
+  jpa:
+    show-sql: true
+
+server:
+  servlet:
+    context-path: /sell
+#logging:
+#  pattern:
+#    # %d 日期 %msg 信息 %n 换行
+#    console: "%d - %msg%n"
+#  file:
+#    path: /var/log/tomcat/sell.log
+#  level: debug
